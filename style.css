@@ -13,6 +13,14 @@ html {
     text-align: center;
   }
 
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black
+  }
+
   video {
     object-fit: cover;
     width: 100vw;
