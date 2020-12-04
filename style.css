@@ -21,6 +21,11 @@ html {
     color: black
   }
 
+  a:hover {
+    text-decoration: none;
+    cursor: alias;
+  }
+
   video {
     object-fit: cover;
     width: 100vw;
