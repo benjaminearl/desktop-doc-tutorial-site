@@ -126,6 +126,11 @@ html {
     z-index: 10;
 }
 
+#assignments {
+  background-color: bisque;
+  padding: 20px
+}
+
 #watching {
   background-color: salmon;
   padding: 20px;
