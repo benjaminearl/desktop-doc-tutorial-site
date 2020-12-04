@@ -45,10 +45,19 @@ html {
       background-color: white;
       display: inline-block;
       vertical-align: middle;
-      width: 500px;
+      width: 550px;
       margin-top: 50px;
       position: relative;
       z-index: 10;
+      padding: 15px
+  }
+
+  #title h1 {
+    margin-bottom: 5px
+  }
+
+  #title h2 {
+    margin-top: 0;
   }
 
   #top-nav ul {
@@ -64,6 +73,7 @@ html {
     border: 1px solid blue;
     padding: 10px;
     background-color: gainsboro;
+    margin-bottom: 10px;
   }
 
   #top-nav li a {
@@ -124,4 +134,18 @@ html {
 #colophon {
   background-color: yellow;
   padding: 20px;
+}
+
+@media all and (max-width: 600px) {
+  #title {
+    width: 100%;
+  }
+
+  #introduction {
+    margin-top: 90px;
+  }
+
+  #schedule h2 {
+    padding: 10px;
+  }
 }
